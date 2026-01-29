@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="src/output.css" rel="stylesheet" />
+    <title>Qanun nəşriyyatı</title>
+  </head>
+  <body>
+    <header class="py-3">
+      <div class="mobil md:hidden flex justify-around items-center">
+        <div class="flex justify-center items-center gap-3">
+        <i class="fa-solid fa-bars text-2xl"></i>
+        <img class="w-14" src="qanun.logo.png" alt="logo" />
+        </div>
+        <div class="flex flex-row items-center gap-5">
+          <a class="border w-10 text-center py-1 h-8" href="">Az</a>
+          <a class="border w-20 text-center py-2 rounded-md" href=""
+            ><i class="fa-solid fa-basket-shopping text-[#ec111d]"></i>Səbət</a
+          >
+        </div>
+      </div>
+      <div class="desktop md:flex justify-around items-center hidden">
+        <img class="w-20" src="qanun.logo.png" alt="" />
+        <input
+          class="border w-96 py-2 px-2 rounded-3xl outline-0"
+          type="text"
+          placeholder="Kitab adı,  yazar adı..."
+        />
+        <div class="flex flex-row items-center gap-5">
+          <a class="border w-12 text-center py-2 h-10" href="">Az</a>
+          <a class="border w-24 text-center py-3 rounded-md" href=""
+            ><i class="fa-regular fa-user text-[#ec111d]"></i>Giriş</a
+          >
+          <a class="border w-24 text-center py-3 rounded-md" href=""
+            ><i class="fa-solid fa-basket-shopping text-[#ec111d]"></i>Səbət</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+        <div id="container" class="container py-5 m-auto flex items-center gap-4 flex-wrap"></div>
+    </main>
+    <script src="App.js"></script>
+  </body>
+</html>
